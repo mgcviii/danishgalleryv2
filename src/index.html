@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Plus+Jakarta+Sans&display=swap"
     rel="stylesheet" />
   <!-- <META NAME="robots" CONTENT="noindex,nofollow"> -->
-  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js"></script>
   <title>Danish Gallery</title>
 </head>
@@ -30,25 +30,26 @@
     <nav class="hidden lg:flex lg:flex-row lg:w-screen lg:justify-between">
       <div class="leftsideitemscontainer lg:flex ">
         <a href="index.html" aria-label="danishgallery logo"><img class="m-auto " src="img/logo.svg" alt="" /></a>
-        <ul class="  lg:flex lg:flex-grow lg:items-center lg:justify-center lg:gap-x-spacing20 lg:ml-spacing20">
+        <ul
+          class="  lg:flex lg:flex-grow lg:items-center lg:justify-center lg:gap-x-spacing14 lg:ml-spacing20 xl:gap-x-spacing20">
           <!-- Menu items -->
           <li>
-            <a href="artwork.html" class="font-semibold text-black lg:text-fontdsize18  ">ARTWORK</a>
+            <a href="artwork.html" class="font-semibold text-black lg:text-standardbodysize  ">ARTWORK</a>
           </li>
           <li>
-            <a href="artists.html" class=" font-semibold text-black  lg:text-fontdsize18">ARTISTS</a>
+            <a href="artists.html" class=" font-semibold text-black  lg:text-standardbodysize">ARTISTS</a>
           </li>
           <li>
-            <a href="#" class=" font-semibold text-black  lg:text-fontdsize18">SOLD ARTWORK</a>
+            <a href="#" class=" font-semibold text-black  lg:text-standardbodysize">SOLD ARTWORK</a>
           </li>
           <li>
-            <a href="#" class=" font-semibold text-black   lg:text-fontdsize18">ABOUT US</a>
+            <a href="#" class=" font-semibold text-black   lg:text-standardbodysize">ABOUT US</a>
           </li>
           <li>
-            <a href="#" class=" font-semibold text-black  lg:text-fontdsize18">BUY A GIFT CARD</a>
+            <a href="#" class=" font-semibold text-black  lg:text-standardbodysize">BUY A GIFT CARD</a>
           </li>
           <li>
-            <a href="#" class=" font-semibold text-orange2  lg:text-fontdsize18">ARE YOU AN ARTIST?</a>
+            <a href="#" class=" font-semibold text-orange2  lg:text-standardbodysize">ARE YOU AN ARTIST?</a>
           </li>
         </ul>
       </div>
@@ -113,18 +114,31 @@
   <main>
     <!--HERO SECTION-->
     <section>
-      <div class="relative">
+      <div class="h-auto w-screen bg-cover relative herobackground	">
+        <!-- <p
+          class="xxsdisplay lg:herosection absolute top-2 right-1/2 mt-7 ml-12 text-center text-orange3 lg:ml-48 lg:mt-10">
+          Looking for the perfect artwork for your living room wall?
+        </p> -->
         <p
           class="xxsdisplay lg:herosection absolute top-2 right-1/2 mt-7 ml-12 text-center text-orange3 lg:ml-48 lg:mt-10">
           Looking for the perfect artwork for your living room wall?
         </p>
-        <img class="mx-auto" src="img/heroimg.webp" alt="" />
+
+        <!-- <img class="mx-auto lg:hidden" src="img/heroimagemb2.webp" alt="" /> -->
+
+        <!-- <img class="mx-auto" src="img/heroimg.webp" alt="" /> -->
+        <!-- <img class="mx-auto hidden lg:block" src="img/heroimg (2).webp" alt="" /> -->
+
         <div class="flex flex-row justify-center">
           <a href="artists.html"><button
               class="smallbody lg:mbodytext container absolute -bottom-2 left-1/2 h-10 w-36 -translate-x-1/2 -translate-y-1/2 border-x border-y border-black3 bg-black font-semibold tracking-widest text-white1 lg:-bottom-1 lg:h-14 lg:w-56 lg:border-solid lg:bg-white1 lg:text-black">
               EXPLORE ARTISTS
             </button></a>
         </div>
+      </div>
+
+
+
       </div>
 
       <div id="subhero"

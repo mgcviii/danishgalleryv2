@@ -9,6 +9,7 @@ module.exports = {
     "./src/productpage.html",
     "./src/sitemap.html",
     "./src/danishgallerysitemap.xml",
+    "./src/main.js",
   ],
   theme: {
     colors: {
@@ -86,6 +87,11 @@ module.exports = {
 
       lineHeight: {
         lh175: "175%",
+      },
+
+      backgroundImage: {
+        heroimagemb: "url('../src/img/heroimagemb.webp')",
+        heroimagedt: "url('../public/img/heroimgdt.webp')",
       },
     },
   },

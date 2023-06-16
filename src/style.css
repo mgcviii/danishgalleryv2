@@ -519,7 +519,17 @@ header {
   }
 }
 
+/* INDEX HERO */
 
+.herobackground {
+  background-image: url(img/heroimagemb2.webp);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+  aspect-ratio: 11/16;
+  background-repeat: no-repeat;
+}
 
 
 /* PRODUCT CARD BUTTON */
@@ -799,6 +809,22 @@ aside.filters {
 
 /* >>>>>     artworks page end      <<<<<< */
 
+@media only screen and (min-width: 768px) {
+
+  .herobackground {
+    background-image: url(img/heroimgdt.webp);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    aspect-ratio: 16/7;
+    background-repeat: no-repeat;
+  }
+
+}
+
+
+
 @media only screen and (min-width: 1024px) {
 
   /* nav styling */
@@ -809,6 +835,18 @@ aside.filters {
 
 
   /* Index/Homepage */
+
+  /* .herobackground {
+    background-image: url(img/heroimgdt.webp);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    aspect-ratio: 16/7;
+    background-repeat: no-repeat;
+  } */
+
+
   .featuredart {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
